@@ -164,7 +164,7 @@ A empresa desenvolveu três soluções principais: EcoTrack, para monitoramento 
 
     <section id="persona">
       <h2>Persona</h2>
-      <p><strong>Nome:</strong> Gustavo Sil </p>
+      <p><strong>Nome:</strong> Paulo Martins e Luiz Alves</p>
       <p><strong>Profissão:</strong> Gerentes de Sustentabilidade de uma empresa industrial</p>
       <p><strong>Desafios:</strong></p>
       <ul>
@@ -186,14 +186,43 @@ A empresa desenvolveu três soluções principais: EcoTrack, para monitoramento 
       <div class="valores-grid">
         <div class="valor-item">
           <h3>EcoTrack</h3>
-          <p>Uma plataforma digital avançada para o monitoramento contínuo das emissões de carbono...</p>
-          <a href="detalhes-servico.html?servico=ecoTrack" class="btn-consultar">Consultar Serviço</a>  
-          <button class="botao-consultar"       
-          <div class="valor-item">
-       </div>
-
+          <p>Uma plataforma digital avançada que permite o monitoramento contínuo das emissões de carbono, fornecendo relatórios detalhados e insights em tempo real para facilitar decisões estratégicas.</p>
         </div>
-       
+        <div class="valor-item">
+          <h3>GreenSupply</h3>
+          <p>Um sistema inteligente que analisa sua cadeia de suprimentos e recomenda fornecedores alinhados a critérios de sustentabilidade, promovendo práticas ecológicas desde a origem.</p>
+        </div>
+        <div class="valor-item">
+          <h3>EcoConsult</h3>
+          <p>Consultoria especializada que oferece suporte técnico e estratégico para adequação às normas ambientais, redução de desperdícios e implementação de políticas sustentáveis.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="tree-footer">
+    &copy; 2025 GreenTech Solutions. Todos os direitos reservados.
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
+<section id="servicos">
+      <h2>Serviços em Destaque</h2>
+
+      <div class="valores-grid">
+        <div class="valor-item">
+          <h3>EcoTrack</h3>
+          <p>Uma plataforma digital avançada para o monitoramento contínuo das emissões de carbono...</p>
+          <a href="detalhes-servico.html?servico=ecoTrack" class="btn-consultar">Consultar Serviço</a>
+        </div>
 
         <div class="valor-item">
           <h3>GreenSupply</h3>
@@ -201,17 +230,14 @@ A empresa desenvolveu três soluções principais: EcoTrack, para monitoramento 
           <a href="detalhes-servico.html?servico=greenSupply" class="btn-consultar">Consultar Serviço</a>
         </div>
 
-
         <div class="valor-item">
           <h3>EcoConsult</h3>
           <p>Consultoria especializada que oferece suporte técnico e estratégico para adequação às normas ambientais...</p>
           <a href="detalhes-servico.html?servico=ecoConsult" class="btn-consultar">Consultar Serviço</a>
-         
         </div>
       </div>
     </section>
   </main>
-
 
   <footer class="tree-footer">
     &copy; 2025 GreenTech Solutions. Todos os direitos reservados.
