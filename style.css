@@ -1,0 +1,131 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0b0b0b;
+  color: #e0ffe0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #005288; /* Cor inspirada na NASA */
+  color: #fff;
+  padding: 80px 20px; 
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 6em;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 2.4em;
+  margin-top: 10px;
+}
+
+nav {
+  background-color: #1b2b34;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  box-shadow: 0 2px 4px rgba(0, 255, 136, 0.2);
+}
+
+nav a {
+  color: #00ff88;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  font-size: 2.4em;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+main {
+  padding: 180px 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 160px;
+  background-color: #121212;
+  padding: 80px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.1);
+}
+
+section h2 {
+  color: #00ff88;
+  font-size: 4.6em;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  font-size: 2.4em;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #00ff88;
+  margin-top: 20px;
+  font-size: 3.2em;
+}
+
+button {
+  background-color: #00ff88;
+  color: #000;
+  border: none;
+  padding: 30px 60px;
+  font-size: 2.6em;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: #00cc6a;
+}
+
+footer {
+  text-align: center;
+  background-color: #005288;
+  color: #fff;
+  padding: 60px;
+  box-shadow: 0 -4px 6px rgba(0, 255, 136, 0.3);
+  font-weight: bold;
+  font-size: 4.8em;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 5em;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 10px 0;
+    font-size: 2em;
+  }
+
+  section {
+    padding: 60px;
+  }
+}
